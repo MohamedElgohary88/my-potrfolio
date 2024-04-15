@@ -1,0 +1,10 @@
+# General ignores
+.kobweb/*
+!.kobweb/conf.yaml
+# Project exclude paths
+/.gradle/
+/build/
+/site/build/
+/site/build/classes/kotlin/js/main/
+/worker/build/
+/worker/build/classes/kotlin/js/main/

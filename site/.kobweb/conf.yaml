@@ -1,0 +1,14 @@
+site:
+  title: "My Potrfolio"
+
+server:
+  files:
+    dev:
+      contentRoot: "build/processedResources/js/main/public"
+      script: "build/dist/js/developmentExecutable/mypotrfolio.js"
+      api: "build/libs/mypotrfolio.jar"
+    prod:
+      script: "build/dist/js/productionExecutable/mypotrfolio.js"
+      siteRoot: ".kobweb/site"
+
+  port: 8080
