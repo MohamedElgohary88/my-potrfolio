@@ -1,6 +1,7 @@
 # General ignores
 .kobweb/*
 !.kobweb/conf.yaml
+!.kobweb/site
 # Project exclude paths
 /.gradle/
 /build/
