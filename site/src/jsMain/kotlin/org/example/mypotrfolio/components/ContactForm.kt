@@ -27,7 +27,7 @@ fun ContactForm(breakpoint: Breakpoint) {
         horizontalAlignment = Alignment.CenterHorizontally
     ) {
         Form(
-            action = "https://formspree.io/f/xnqylbel",
+            action = "https://formspree.io/f/xbjnpnvj",
             attrs = Modifier
                 .attrsModifier {
                     attr("method","POST")
