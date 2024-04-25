@@ -23,6 +23,7 @@ import org.example.mypotrfolio.components.SocialBar
 import org.example.mypotrfolio.models.Section
 import org.example.mypotrfolio.models.Theme
 import org.example.mypotrfolio.styles.MainButtonStyle
+import org.example.mypotrfolio.styles.MainImageStyle
 import org.example.mypotrfolio.util.Constants
 import org.example.mypotrfolio.util.Constants.FONT_FAMILY
 import org.example.mypotrfolio.util.Res
@@ -160,13 +161,11 @@ fun MainText(breakpoint: Breakpoint, modifier: Modifier = Modifier) {
 @Composable
 fun MainImage() {
     Column(
-        modifier = Modifier
-            .fillMaxSize()
-            .fillMaxHeight(),
+        modifier = Modifier.fillMaxSize(80.percent).fillMaxHeight(),
         verticalArrangement = Arrangement.Bottom
     ) {
         Image(
-            modifier = Modifier.fillMaxWidth(),
+            modifier = MainImageStyle.toModifier().fillMaxWidth(),
             src = Res.Image.HandCoding,
             description = "Main image"
         )
