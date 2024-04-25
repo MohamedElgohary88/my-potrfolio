@@ -1,54 +1,51 @@
-This is a [Kobweb](https://github.com/varabyte/kobweb) project bootstrapped with the `app/empty` template.
+# Awesome Portfolio Website
 
-This template is useful if you already know what you're doing and just want a clean slate. By default, it
-just creates a blank home page (which prints to the console so you can confirm it's working)
+Welcome to my portfolio website built with Kotlin, Jetpack Compose, and Kobweb framework! This README will guide you through the different sections of my website and what you can expect to find.
 
-If you are still learning, consider instantiating the `app` template (or one of the examples) to see actual,
-working projects.
+## Table of Contents
+- [Main Section](#main-section)
+- [About Me Section](#about-me-section)
+- [Service Section](#service-section)
+- [Portfolio Section](#portfolio-section)
+- [Experience Section](#experience-section)
+- [Contact Me Section](#contact-me-section)
+- [Footer Section](#footer-section)
 
-## Getting Started
+## Main Section
+- **Name:** Discover who I am!
+- **Summary:** Get a quick overview of my skills and experience.
+- **Image:** See a glimpse of me!
+- **Top Navigation:** Navigate seamlessly through the website.
 
-First, run the development server by typing the following command in a terminal under the `site` folder:
-
-```bash
-$ cd site
-$ kobweb run
-```
+![image_720](https://github.com/MohamedElgohary88/my-potrfolio/assets/87489620/3bda8001-5cb8-4522-a252-3912786d2184)
 
 
-Open [http://localhost:8080](http://localhost:8080) with your browser to see the result.
+## About Me Section
+- **Why You Should Hire Me:** Learn about what makes me the perfect candidate for your project or team.
 
-You can use any editor you want for the project, but we recommend using **IntelliJ IDEA Community Edition** downloaded
-using the [Toolbox App](https://www.jetbrains.com/toolbox-app/).
+![image_720](https://github.com/MohamedElgohary88/my-potrfolio/assets/87489620/c4715c80-7aee-4237-9c7c-bbeedd4fa79a)
 
-Press `Q` in the terminal to gracefully stop the server.
 
-### Live Reload
+## Service Section
+- **I Am Good At:** Explore the skills and services I excel in, ensuring your project's success.
 
-Feel free to edit / add / delete new components, pages, and API endpoints! When you make any changes, the site will
-indicate the status of the build and automatically reload when ready.
+![image_720](https://github.com/MohamedElgohary88/my-potrfolio/assets/87489620/16fa403f-1d0b-4c4c-8ef5-2ed2e5218226)
 
-## Exporting the Project
 
-When you are ready to ship, you should shutdown the development server and then export the project using:
+## Portfolio Section
+- **Works and Projects:** Dive into my portfolio to see examples of my past projects and works.
 
-```bash
-kobweb export
-```
+## Experience Section
+- **Work Experience:** Trace my journey through my professional history and experience.
 
-When finished, you can run a Kobweb server in production mode:
+![image_720](https://github.com/MohamedElgohary88/my-potrfolio/assets/87489620/daac92fe-69a7-47a2-a6a1-deca2d2680eb)
 
-```bash
-kobweb run --env prod
-```
 
-If you want to run this command in the Cloud provider of your choice, consider disabling interactive mode since nobody
-is sitting around watching the console in that case anyway. To do that, use:
+## Contact Me Section
+- **Get in Touch:** Reach out to me easily through the contact form.
+  - **Name:** Tell me who you are.
+  - **Email:** Provide your email address for correspondence.
+  - **Message:** Share your thoughts, questions, or project details.
 
-```bash
-kobweb run --env prod --notty
-```
-
-Kobweb also supports exporting to a static layout which is compatible with static hosting providers, such as GitHub
-Pages, Netlify, Firebase, any presumably all the others. You can read more about that approach here:
-https://bitspittle.dev/blog/2022/staticdeploy
+## Footer Section
+- **Stay Connected:** Find links to my social media profiles and stay updated on my latest endeavors.
